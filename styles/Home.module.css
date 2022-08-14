@@ -17,7 +17,7 @@
   align-items: center;
   padding: 0 16px 0 28px;
   gap: 18px;
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
 }
 
 .BHTitle {
@@ -43,7 +43,7 @@
   font-weight: 700;
   font-size: 48px;
   line-height: 64px;
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
 }
 .moreWorksBtn {
   display: flex;
@@ -68,43 +68,40 @@
 .userEmailContainer {
   background: #003385;
   border-radius: 8px;
-  width: 1232px;
-  height: 456px;
   margin-top: 140px;
   display: flex;
   flex-direction: column;
   justify-self: center;
   align-items: center;
   text-align: center;
+  padding: 0 32px;
 }
 .userEmailHeader {
   font-weight: 700;
   font-size: 48px;
   line-height: 64px;
-  width: 700px;
-  height: 128px;
   margin-top: 80px;
-  font-family: 'Noto Sans JP';
+  max-width: 700px;
+  font-family: "Noto Sans JP";
 }
 .userEmaildec {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   margin-top: 24px;
-  width: 816px;
-  height: 56px;
 }
 .userEmailContact {
   display: flex;
   margin-top: 32px;
   gap: 16px;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .userEmailInput {
   border: 1px solid #0047b8;
   border-radius: 8px;
   background: #0e1e45;
-  width: 513px;
-  height: 56px;
   outline: none;
   font-weight: 400;
   font-size: 16px;
@@ -129,4 +126,23 @@
   font-weight: 700;
   font-size: 16px;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 1440px) {
+  .userEmailContainer {
+    width: 1168px;
+    height: 456px;
+  }
+  .userEmailHeader {
+    width: 700px;
+    height: 128px;
+  }
+  .userEmaildec {
+    width: 816px;
+    height: 56px;
+  }
+  .userEmailInput {
+    width: 513px;
+    height: 56px;
+  }
 }
