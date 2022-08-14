@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <div className="infoContainer">
         <div>
-          <Image src="/logo.png" width={161} height={32} />
+          <Image src="/Logo.png" width={161} height={32} />
           <div className="description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
             tristique placerat eleifend aliquam pellentesque facilisis ultrices.
