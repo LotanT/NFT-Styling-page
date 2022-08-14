@@ -1,12 +1,10 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap'); */
 @import url("https://fonts.googleapis.com/css?family=DM Sans");
 @import url("https://fonts.googleapis.com/css?family=Noto Sans JP");
 
-body {
+html, body {
   background: #06132d;
   color: #ffffff;
   font-family: "DM Sans";
-  overflow-x: hidden;
 }
 
 a {
@@ -17,6 +15,7 @@ a {
   max-width: 1232px;
   padding: 0 32px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 nav {
@@ -34,7 +33,7 @@ nav {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  position: absolute;
+  position: fixed;
   top: 120px;
   right: -250px;
   transition: right 1s;
