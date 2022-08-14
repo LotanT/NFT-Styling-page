@@ -1,26 +1,106 @@
-html,
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=DM Sans');
+@import url('https://fonts.googleapis.com/css?family=Noto Sans JP');
+
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #06132d;
+  color: #ffffff;
+  font-family: 'DM Sans';
 }
 
 a {
-  color: inherit;
+  color: #cccccc;
   text-decoration: none;
 }
-
-* {
-  box-sizing: border-box;
+.content {
+  max-width: 1232px;
+  padding: 0 104px;
+  margin: 0 auto;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+nav {
+  height: 120px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1232px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  margin-left: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+nav a.active{
+  color: #FFFFFF;
+  font-weight: 700;
+}
+nav .logo {
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.btn {
+  width: 184px;
+  height: 56px;
+  background: #0047b8;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 170px;
+}
+.infoContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.infoContainer>*:not(:last-child){
+  padding-left: 16px;
+}
+.infoHeader {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 24px;
+  font-family: 'Noto Sans JP';
+}
+.infoLinks {
+  display: flex;
+  flex-direction: column;
+}
+.infoLinks > * {
+  margin-bottom: 8px;
+}
+.description {
+  margin-top: 32px;
+  width: 500px;
+  height: 84px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+.condition {
+  display: flex;
+  margin-top: 56px;
+  margin-bottom: 80px;
+}
+.condition>.copyright{
+  margin-left: auto;
+  margin-right: 32px;
+}
+.condition > * {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-right: 56px;
+  
 }

@@ -1,0 +1,9 @@
+.container {
+  background: #0e1e45;
+  border-radius: 8px;
+  padding: 8px 13px 16px;
+  font-size: 12px;
+  font-weight: 500;
+  display: inline;
+  color: #EBF3FF;
+}

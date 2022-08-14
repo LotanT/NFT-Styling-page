@@ -1,0 +1,72 @@
+.container {
+  background: #0e1e45;
+  border-radius: 16px;
+  width: 368px;
+  height: 634px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 16px 24px 16px;
+  margin-top: 56px;
+}
+.pic {
+  border-radius: 16px;
+}
+.tag {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  margin-top: 16px;
+  font-family: 'Noto Sans JP';
+}
+.userDetails {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+.userPic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #cccccc;
+}
+.userName {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+.bidContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  font-family: 'Noto Sans JP';
+}
+.bidTitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #cccccc;
+}
+.bidPrice {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 8px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 368px;
+  height: 64px;
+  outline: solid #FFFFFF 1px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 24px;
+}
+.btn:hover{
+    background: #1f75ff;
+    outline: solid #1f75ff 1px;
+}

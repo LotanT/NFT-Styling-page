@@ -1,0 +1,105 @@
+.item {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 64px;
+    margin-top: 56px;
+    flex-wrap: wrap;
+  }
+  
+  .aboutItem {
+    max-width: 560px;
+    margin-top: 29px;
+  }
+  
+  .itemHeader {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Noto Sans JP';
+  }
+  
+  .itemPic {
+    border-radius: 16px;
+    min-width: 608px;
+  }
+  
+  .itemDescription {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #cccccc;
+    margin-top: 24px;
+  }
+  
+  .itemTags {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .itemInfo {
+    display: flex;
+    gap: 40px;
+    margin-top: 32px;
+  }
+  
+  .itemPrice {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 40px;
+  }
+  .itemPriceTitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #cccccc;
+  }
+  .itemPriceDes {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+  }
+  .itemPriceETH {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    font-family: 'Noto Sans JP';
+  }
+  .itemPriceUSD {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .btnBid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 166px;
+    height: 64px;
+    background: #1f75ff;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .btnShare {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    width: 166px;
+    height: 64px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+  }
+  .itemBtns{
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+  }

@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 41px;
+  padding-right: 32.19px;
+}
+.info {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.pic {
+  border-radius: 50%;
+}
+.name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+}
+.bid {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+}
+.price {
+  color: #3b83df;
+}
+.date {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #CCCCCC;
+}
